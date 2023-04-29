@@ -1,51 +1,9 @@
-/**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
- *  01. webfonts and iconfonts
- *  02. base style overrides
- *  03. typography & general theme styles
- *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. resume
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
- *
- * =================================================================== 
- */
 
-
-/** 
- * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
 
-/** 
- * ===================================================================
- * 02. base style overrides - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 html {
 	font-size: 10px;
 }
@@ -77,10 +35,6 @@ body {
 	color: #6e6e6e;
 }
 
-/**
- * links - (_document-setup.scss)
- * -------------------------------------------------------------------
- */
 a, a:visited {
 	color: #000000;
 	-moz-transition: all 0.3s ease-in-out;
@@ -94,15 +48,9 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
-/** 
- * ===================================================================
- * 03. typography & general theme styles - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color:crimson;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -267,10 +215,6 @@ hr {
 	height: 0;
 }
 
-/**
- * Lists - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 ol {
 	list-style: decimal;
 }
@@ -315,10 +259,6 @@ dd {
 	margin: 0 0 0 2rem;
 }
 
-/**
- * tables - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 table {
 	border-width: 0;
 	width: 100%;
@@ -348,10 +288,6 @@ th:last-child, td:last-child {
 	-webkit-overflow-scrolling: touch;
 }
 
-/**
- * Spacing - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 button, .button {
 	margin-bottom: 1.2;
 }
@@ -375,10 +311,6 @@ form,
 	margin-bottom: 3rem;
 }
 
-/**
- * floated image - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 img.pull-right {
 	margin: .9rem 0 0 2.4rem;
 }
@@ -386,10 +318,7 @@ img.pull-left {
 	margin: .9rem 2.4rem 0 0;
 }
 
-/**
- * block grid paddings - (_document-setup.scss) 
- * -------------------------------------------------------------------
- */
+
 .bgrid {
 	padding: 0 20px;
 }
@@ -414,10 +343,6 @@ img.pull-left {
 	}
 }
 
-/**
- * pace.js styles - minimal  - (_document-setup.scss)
- * -------------------------------------------------------------------
- */
 .pace {
 	-webkit-pointer-events: none;
 	pointer-events: none;
@@ -438,12 +363,6 @@ img.pull-left {
 	height: 6px;
 }
 
-/** 
- * ===================================================================
- * 04. preloader - (_preloader-1.scss)
- *
- * ------------------------------------------------------------------- 
- */
 #preloader {
 	position: fixed;
 	top: 0;
@@ -501,12 +420,6 @@ img.pull-left {
 	}
 }
 
-/** 
- * ===================================================================
- * 05. forms - (_forms.scss)
- *
- * ------------------------------------------------------------------- 
- */
 fieldset {
 	border: none;
 }
@@ -619,10 +532,6 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	top: .15rem;
 }
 
-/**
- * Style Placeholder Text  
- * -
- */
 ::-webkit-input-placeholder {
 	color: #a1a1a1;
 }
@@ -639,12 +548,6 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	color: #a1a1a1 !important;
 }
 
-/** 
- * ===================================================================
- * 06. buttons - (_button-essentials.scss)
- *
- * ------------------------------------------------------------------- 
- */
 .button,
 a.button,
 button,
@@ -661,7 +564,7 @@ input[type="button"] {
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
 	background: #d8d8d8;
-	color: #313131;
+	color:whitesmoke;
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
@@ -726,7 +629,7 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #313131;
+	border: 3px solid whitesmoke;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -744,18 +647,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
-
-/** 
- * ===================================================================
- * 07. other components - (_others.scss)
- *
- * ------------------------------------------------------------------- 
- */
-
-/**
- * alert box - (_alert-box.scss)
- * -------------------------------------------------------------------
- */
 .alert-box {
 	padding: 2.1rem 4rem 2.1rem 3rem;
 	position: relative;
@@ -787,14 +678,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #bba31b;
 }
 
-/**
- * additional typo styles - (_additional-typo.scss)
- * -------------------------------------------------------------------
- */
-
-/**
- * drop cap 
- */
 .drop-cap:first-letter {
 	float: left;
 	margin: 0;
@@ -848,19 +731,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: counter(definitions, decimal) ". ";
 }
 
-/** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
- *
- * --------------------------------------------------------------------- 
- */
 .pull-quote {
 	position: relative;
 	padding: 2.1rem 3rem 2.1rem 0px;
@@ -889,19 +759,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: none;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * ---------------------------------------------------------------------
- */
 .stats-tabs {
 	padding: 0;
 	margin: 3rem 0;
@@ -935,10 +792,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #888888;
 }
 
-/**
- * skillbars - (_skillbars.scss)
- * -------------------------------------------------------------------
- */
 .skill-bars {
 	list-style: none;
 	margin: 6rem 0 3rem;
@@ -956,14 +809,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color:whitesmoke;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background:crimson;
 	position: relative;
 	height: 100%;
 }
@@ -1013,12 +866,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent100 { width: 100%; }
 
 
-/** 
- * ===================================================================
- * 08. common styles (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 .grey-section {
 	background: #ebebeb;
 }
@@ -1032,11 +879,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	text-align: center;
 	margin-bottom: 3.6rem;
 	position: relative;
+	background-color:#3b3b3b;
 }
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color:whitesmoke;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1048,11 +896,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	letter-spacing: .4rem;
 }
 
-/**
- * responsive:
- * common styles
- * ------------------------------------------------------------------- 
- */
 @media only screen and (max-width:768px) {
 	.section-intro {
 		max-width: 650px;
@@ -1076,13 +919,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 09. header styles - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 header {
 	position: fixed;
 	width: 100%;
@@ -1123,10 +959,6 @@ header .logo a {
 	background-size: 92px 15px;
 }
 
-/**
- * menu toggle - (_layout.css)
- * ------------------------------------------------------------------- 
- */
 .menu-toggle {
 	float: left;
 	width: 40px;
@@ -1260,11 +1092,6 @@ header .logo a {
 	color: #FF0077;
 }
 
-/**
- * responsive:
- * header styles
- * --------------------------------------------------------------- 
- */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
 		left: 60px;
@@ -1286,13 +1113,6 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 10. intro - (_layout.scss) 
- *
- * ------------------------------------------------------------------- 
- */
 #intro {
 	background: #151515 url(../images/gitduck-vs-code-extensions-animation-opt.gif) no-repeat center bottom;
 	-webkit-background-size: cover;
@@ -1419,11 +1239,6 @@ header .logo a {
 	color: #cc005f;
 }
 
-/**
- * responsive:
- * Intro
- * --------------------------------------------------------------- 
- */
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
 		font-size: 7.6rem;
@@ -1482,15 +1297,8 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 11. about - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 #about {
-	background: #FFFFFF;
+	background:#3b3b3b;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1537,7 +1345,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color:whitesmoke;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1564,11 +1372,6 @@ header .logo a {
 	margin-right: 4rem;
 }
 
-/**
- * responsive:
- * about
- * ------------------------------------------------------------------- 
- */
 @media only screen and (max-width:1024px) {
 	.intro-info {
 		margin-right: 0;
@@ -1614,12 +1417,6 @@ header .logo a {
 	}
 }
 
-/** 
- * ===================================================================
- * 12. resume - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
@@ -1629,7 +1426,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color:#000;
 }
 
 #resume .resume-timeline {
@@ -1706,11 +1503,7 @@ header .logo a {
 	bottom: 0;
 }
 
-/**
- * responsive:
- * resume
- * ------------------------------------------------------------------- 
- */
+
 @media only screen and (max-width:1024px) {
 	#resume .timeline-header {
 		padding-right: 50px;
@@ -1782,13 +1575,6 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 13. portfolio - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 #portfolio {
 	background: #FFFFFF;
 	padding-top: 12rem;
@@ -2559,10 +2345,6 @@ footer .copyright span:last-child::after {
 	}
 }
 
-/**
- * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
 #go-top {
 	position: fixed;
 	bottom: 0;
@@ -2595,5 +2377,3 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
-
-/*# sourceMappingURL=main.css.map */
