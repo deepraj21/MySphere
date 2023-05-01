@@ -2322,11 +2322,6 @@ footer .copyright span:last-child::after {
 	display: none;
 }
 
-/**
- * responsive:
- * footer
- * -------------------------------------------------------------------
- */
 @media only screen and (max-width:768px) {
 	footer {
 		text-align: center;
