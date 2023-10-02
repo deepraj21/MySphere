@@ -28,13 +28,13 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello there! I&apos;m <span className="text-textGreen">Deepraj Bera</span>, a dedicated and ambitious BTech student majoring in Computer Science at <span className="text-textGreen">KIIT University</span>. My journey in the world of technology has been marked by a profound passion for learning and a keen interest in both <span className="text-textGreen">frontend and backend development</span>.
+            Hello there! Im <span className="text-textGreen">Deepraj Bera</span>, a dedicated and ambitious BTech student majoring in Computer Science at <span className="text-textGreen">KIIT University</span>. My journey in the world of technology has been marked by a profound passion for learning and a keen interest in both <span className="text-textGreen">frontend and backend development</span>.
           </p>
           <p>
             As a motivated and <span className="text-textGreen">detail-oriented programmer</span>, I have honed my skills across various programming languages and my proficiency extends beyond the backend, as I am well-versed in frontend technologies. I bring projects to life with a creative touch, utilizing popular libraries to ensure sleek and <span className="text-textGreen">responsive user interfaces</span>.
           </p>
           <p>
-            My journey has led me to explore the exciting realm of <span className="text-textGreen">AI/ML</span>, where I have successfully implemented models using powerful tools such as <span className="text-textGreen">TensorFlow, Pandas, and scikit-learn</span>. Developing machine learning models is not just a skill for me; it&apos;s a passion that drives me to contribute to innovative projects.
+            My journey has led me to explore the exciting realm of <span className="text-textGreen">AI/ML</span>, where I have successfully implemented models using powerful tools such as <span className="text-textGreen">TensorFlow, Pandas, and scikit-learn</span>. Developing machine learning models is not just a skill for me; its a passion that drives me to contribute to innovative projects.
           </p>
           <p>Here are the technologies and TechStacks I have been working with:</p>
           <ul className="max-w-[400px] text-sm font-titleFont grid grid-cols-5 gap-4 mt-6">
