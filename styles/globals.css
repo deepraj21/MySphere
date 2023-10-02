@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .contactInput {
+    @apply w-full text-base text-white placeholder:
+    text-textLight border border-b-[1px] border-transparent border-b-textGreen py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-textGreen duration-100 bg-zinc-800;
+  }
+}
+
+/* .scrollbarHide::-webkit-scrollbar {
+  display: none;
+} */
+.active {
+  color: #64ffda;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.relative group{
+  position: relative;
+}
+.object-cover-img{
+  @media (max-width: 786px) {
+    /* display: none; */
+
+  }
+
+}
+.group-d{
+  display: flex;
+  justify-content: center;
+}
+.other-sec{
+    /* position: absolute; */
+    position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
