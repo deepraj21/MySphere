@@ -38,7 +38,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am not just a coder; I am a problem solver, an innovator, and a contributor to the ever-evolving landscape of technology🚀. With a strong foundation in both frontend and backend development, coupled with my expertise in AI/ML, I am poised to make meaningful contributions to the world🌏 of technology and bring innovative ideas to life. Let's code the future together 🧑🏻‍💻 !{" "}
+        I am not just a coder; I am a problem solver, an innovator, and a contributor to the ever-evolving landscape of technology🚀. With a strong foundation in both frontend and backend development, coupled with my expertise in AI/ML, I am poised to make meaningful contributions to the world🌏 of technology and bring innovative ideas to life. Let&apos;s code the future together 🧑🏻‍💻 !{" "}
         
       </motion.p>
       <a href="https://github.com/deepraj21" target="_blank">
