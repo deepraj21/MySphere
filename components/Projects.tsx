@@ -76,7 +76,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://github.com/deepraj21/Neuroscan"
             target="_blank"
           >
             <div>
@@ -135,7 +135,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://github.com/deepraj21/vision.AI"
             target="_blank"
           >
             <div>
